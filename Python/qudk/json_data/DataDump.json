@@ -1,0 +1,46 @@
+{
+    "TableData": {
+        "TableInfo": {
+            "UserInfomanager": {
+                "User_Info": {
+                    "Columns": {
+                        "User_ID": ["VARCHAR2", 20, "NOT NULL"
+                        ],
+                        "User_Name": ["VARCHAR2", 100, "NOT NULL"
+                        ],
+                        "Age": ["NUMBER", [10], "NOT NULL"
+                        ],
+                        "Gender": ["VARCHAR2", 2, "NOT NULL"
+                        ]
+                    },
+                    "PKInfo": ["User_ID", "User_Name"],
+                    "Comment": "유저들의 정보가 담긴 테이블입니다."
+                },
+                "User_CreatedDate": {
+                    "Columns": {
+                        "User_ID": ["VARCHAR2", 20, "NOT NULL"
+                        ],
+                        "CreatedDate": ["DATE","", ""
+                        ]   
+                    },
+                    "PKInfo": ["User_ID"],
+                    "Comment": "유저들의 계정 생성일이 담긴 테이블입니다."
+                }
+            }
+        },
+        "RealData": {
+            "UserInfomanager":{
+                "User_Info":{
+                    "User_ID": ["GT_252", "GT_500", "GT_600", "GT_444"],
+                    "User_Name": ["나무위키", "디시인사이드", "아카라이브", "루리웹"],
+                    "Age": [20,10,7,12],
+                    "Gender": ["M", "F", "M", "F"]
+                },
+                "User_CreatedDate":{
+                    "User_ID": ["GT_252", "GT_500", "GT_600", "GT_444"],
+                    "CreatedDate": ["2020-02-15", "2020-05-14", "2020-06-11", "2020-09-16"]
+                }
+            }
+        }
+    }
+}

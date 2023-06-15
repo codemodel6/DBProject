@@ -1,0 +1,114 @@
+2023-05-15 22:22:08,778 - DEBUG - =======================================
+2023-05-15 22:22:08,779 - DEBUG - 참조할 스키마가 존재하지 않아 SQL을 빌드할 수 없습니다!!!
+2023-05-15 22:22:08,779 - DEBUG - {'FKName': 'FK_PRODUCT_CODE', 'Columns': ['BOUGHT_ITEM'], 'Original Schema': 'TEST_USER1', 'Original Table': 'PRODUCT_CODE', 'Original Column': ['PRODUCT_ID'], 'ETC Info': 'ON DELETE SET NULL'}
+2023-05-15 22:22:08,779 - DEBUG - =======================================
+2023-05-15 22:22:08,853 - ERROR - =======================================
+2023-05-15 22:22:08,853 - ERROR - (1050, "Table 'user_log' already exists")
+2023-05-15 22:22:08,854 - ERROR - SQL Exception!!! Failed Creating Table!!!
+2023-05-15 22:22:08,854 - ERROR - Table: USER_LOG
+2023-05-15 22:22:08,854 - ERROR - SQL: CREATE TABLE USER_LOG(USER_ID VARCHAR(100) COMMENT "None", BOUGHT_ITEM VARCHAR(50) COMMENT "None", ACTION_TIME DATETIME COMMENT "None") COMMENT = "유저들이 구매한 아이템 기록이 저장된 테이블입니다."
+2023-05-15 22:22:08,854 - ERROR - =======================================
+2023-05-15 22:22:08,857 - ERROR - =======================================
+2023-05-15 22:22:08,857 - ERROR - (1050, "Table 'user_level' already exists")
+2023-05-15 22:22:08,857 - ERROR - SQL Exception!!! Failed Creating Table!!!
+2023-05-15 22:22:08,857 - ERROR - Table: USER_LEVEL
+2023-05-15 22:22:08,857 - ERROR - SQL: CREATE TABLE USER_LEVEL(USER_ID VARCHAR(20) NOT NULL COMMENT "None", PLAYER_LEVEL INT NOT NULL COMMENT "None") COMMENT = "유저들의 레벨이 저장된 테이블입니다."
+2023-05-15 22:22:08,857 - ERROR - =======================================
+2023-05-15 22:22:08,860 - ERROR - =======================================
+2023-05-15 22:22:08,860 - ERROR - (1050, "Table 'user_info' already exists")
+2023-05-15 22:22:08,860 - ERROR - SQL Exception!!! Failed Creating Table!!!
+2023-05-15 22:22:08,860 - ERROR - Table: USER_INFO
+2023-05-15 22:22:08,860 - ERROR - SQL: CREATE TABLE USER_INFO(USER_ID VARCHAR(20) NOT NULL COMMENT "None", USER_NAME VARCHAR(50) NOT NULL COMMENT "None", PRIMARY KEY(USER_ID)) COMMENT = "유저들의 정보가 담긴 테이블입니다."
+2023-05-15 22:22:08,860 - ERROR - =======================================
+2023-05-15 22:22:08,862 - ERROR - =======================================
+2023-05-15 22:22:08,862 - ERROR - (1050, "Table 'user_createddate' already exists")
+2023-05-15 22:22:08,863 - ERROR - SQL Exception!!! Failed Creating Table!!!
+2023-05-15 22:22:08,863 - ERROR - Table: USER_CREATEDDATE
+2023-05-15 22:22:08,863 - ERROR - SQL: CREATE TABLE USER_CREATEDDATE(USER_ID VARCHAR(20) NOT NULL COMMENT "None", CREATED_DATE DATETIME NOT NULL COMMENT "None", PRIMARY KEY(USER_ID)) COMMENT = "유저 계정이 생성된 날짜입니다."
+2023-05-15 22:22:08,863 - ERROR - =======================================
+2023-05-15 22:22:08,866 - ERROR - =======================================
+2023-05-15 22:22:08,866 - ERROR - (1050, "Table 'double_pkt' already exists")
+2023-05-15 22:22:08,866 - ERROR - SQL Exception!!! Failed Creating Table!!!
+2023-05-15 22:22:08,866 - ERROR - Table: DOUBLE_PKT
+2023-05-15 22:22:08,866 - ERROR - SQL: CREATE TABLE DOUBLE_PKT(ALLIDX VARCHAR(20) NOT NULL COMMENT "아이디 테스트", ALLIDS VARCHAR(20) NOT NULL COMMENT "아이디기본 테스트", NAME VARCHAR(100) NOT NULL COMMENT "이름", COLUMN1 DOUBLE NOT NULL COMMENT "테스트용 컬럼", FLOATEST INT NOT NULL COMMENT "이것은 플로트여", PRIMARY KEY(ALLIDX, ALLIDS)) COMMENT = "두개의 PK를 가진 테이블을 실험하기 위한 테이블입니다."
+2023-05-15 22:22:08,866 - ERROR - =======================================
+2023-05-15 22:23:01,237 - DEBUG - =======================================
+2023-05-15 22:23:01,238 - DEBUG - 참조할 스키마가 존재하지 않아 SQL을 빌드할 수 없습니다!!!
+2023-05-15 22:23:01,238 - DEBUG - {'FKName': 'FK_PRODUCT_CODE', 'Columns': ['BOUGHT_ITEM'], 'Original Schema': 'TEST_USER1', 'Original Table': 'PRODUCT_CODE', 'Original Column': ['PRODUCT_ID'], 'ETC Info': 'ON DELETE SET NULL'}
+2023-05-15 22:23:01,238 - DEBUG - =======================================
+2023-05-15 22:46:05,080 - DEBUG - =======================================
+2023-05-15 22:46:05,080 - DEBUG - 참조할 스키마가 존재하지 않아 SQL을 빌드할 수 없습니다!!!
+2023-05-15 22:46:05,081 - DEBUG - {'FKName': 'FK_PRODUCT_CODE', 'Columns': ['BOUGHT_ITEM'], 'Original Schema': 'TEST_USER1', 'Original Table': 'PRODUCT_CODE', 'Original Column': ['PRODUCT_ID'], 'ETC Info': 'ON DELETE SET NULL'}
+2023-05-15 22:46:05,081 - DEBUG - =======================================
+2023-05-15 22:46:27,308 - DEBUG - =======================================
+2023-05-15 22:46:27,308 - DEBUG - 참조할 스키마가 존재하지 않아 SQL을 빌드할 수 없습니다!!!
+2023-05-15 22:46:27,308 - DEBUG - {'FKName': 'FK_PRODUCT_CODE', 'Columns': ['BOUGHT_ITEM'], 'Original Schema': 'TEST_USER1', 'Original Table': 'PRODUCT_CODE', 'Original Column': ['PRODUCT_ID'], 'ETC Info': 'ON DELETE SET NULL'}
+2023-05-15 22:46:27,309 - DEBUG - =======================================
+2023-05-15 22:46:41,428 - DEBUG - =======================================
+2023-05-15 22:46:41,428 - DEBUG - 참조할 스키마가 존재하지 않아 SQL을 빌드할 수 없습니다!!!
+2023-05-15 22:46:41,428 - DEBUG - {'FKName': 'FK_PRODUCT_CODE', 'Columns': ['BOUGHT_ITEM'], 'Original Schema': 'TEST_USER1', 'Original Table': 'PRODUCT_CODE', 'Original Column': ['PRODUCT_ID'], 'ETC Info': 'ON DELETE SET NULL'}
+2023-05-15 22:46:41,428 - DEBUG - =======================================
+2023-05-15 22:47:41,899 - DEBUG - =======================================
+2023-05-15 22:47:41,899 - DEBUG - 참조할 스키마가 존재하지 않아 SQL을 빌드할 수 없습니다!!!
+2023-05-15 22:47:41,900 - DEBUG - {'FKName': 'FK_PRODUCT_CODE', 'Columns': ['BOUGHT_ITEM'], 'Original Schema': 'TEST_USER1', 'Original Table': 'PRODUCT_CODE', 'Original Column': ['PRODUCT_ID'], 'ETC Info': 'ON DELETE SET NULL'}
+2023-05-15 22:47:41,900 - DEBUG - =======================================
+2023-05-15 23:24:04,222 - DEBUG - =======================================
+2023-05-15 23:24:04,222 - DEBUG - 참조할 스키마가 존재하지 않아 SQL을 빌드할 수 없습니다!!!
+2023-05-15 23:24:04,222 - DEBUG - {'FKName': 'FK_PRODUCT_CODE', 'Columns': ['BOUGHT_ITEM'], 'Original Schema': 'TEST_USER1', 'Original Table': 'PRODUCT_CODE', 'Original Column': ['PRODUCT_ID'], 'ETC Info': 'ON DELETE SET NULL'}
+2023-05-15 23:24:04,222 - DEBUG - =======================================
+2023-05-15 23:24:19,755 - DEBUG - =======================================
+2023-05-15 23:24:19,755 - DEBUG - 참조할 스키마가 존재하지 않아 SQL을 빌드할 수 없습니다!!!
+2023-05-15 23:24:19,756 - DEBUG - {'FKName': 'FK_PRODUCT_CODE', 'Columns': ['BOUGHT_ITEM'], 'Original Schema': 'TEST_USER1', 'Original Table': 'PRODUCT_CODE', 'Original Column': ['PRODUCT_ID'], 'ETC Info': 'ON DELETE SET NULL'}
+2023-05-15 23:24:19,756 - DEBUG - =======================================
+2023-05-15 23:32:37,076 - DEBUG - =======================================
+2023-05-15 23:32:37,076 - DEBUG - 참조할 스키마가 존재하지 않아 SQL을 빌드할 수 없습니다!!!
+2023-05-15 23:32:37,077 - DEBUG - {'FKName': 'FK_PRODUCT_CODE', 'Columns': ['BOUGHT_ITEM'], 'Original Schema': 'TEST_USER1', 'Original Table': 'PRODUCT_CODE', 'Original Column': ['PRODUCT_ID'], 'ETC Info': 'ON DELETE SET NULL'}
+2023-05-15 23:32:37,077 - DEBUG - =======================================
+2023-05-15 23:38:29,797 - DEBUG - =======================================
+2023-05-15 23:38:29,798 - DEBUG - 참조할 스키마가 존재하지 않아 SQL을 빌드할 수 없습니다!!!
+2023-05-15 23:38:29,798 - DEBUG - {'FKName': 'FK_PRODUCT_CODE', 'Columns': ['BOUGHT_ITEM'], 'Original Schema': 'TEST_USER1', 'Original Table': 'PRODUCT_CODE', 'Original Column': ['PRODUCT_ID'], 'ETC Info': 'ON DELETE SET NULL'}
+2023-05-15 23:38:29,798 - DEBUG - =======================================
+2023-05-15 23:38:39,893 - DEBUG - =======================================
+2023-05-15 23:38:39,893 - DEBUG - 참조할 스키마가 존재하지 않아 SQL을 빌드할 수 없습니다!!!
+2023-05-15 23:38:39,893 - DEBUG - {'FKName': 'FK_PRODUCT_CODE', 'Columns': ['BOUGHT_ITEM'], 'Original Schema': 'TEST_USER1', 'Original Table': 'PRODUCT_CODE', 'Original Column': ['PRODUCT_ID'], 'ETC Info': 'ON DELETE SET NULL'}
+2023-05-15 23:38:39,893 - DEBUG - =======================================
+2023-05-15 23:39:55,138 - DEBUG - =======================================
+2023-05-15 23:39:55,138 - DEBUG - 참조할 스키마가 존재하지 않아 SQL을 빌드할 수 없습니다!!!
+2023-05-15 23:39:55,138 - DEBUG - {'FKName': 'FK_PRODUCT_CODE', 'Columns': ['BOUGHT_ITEM'], 'Original Schema': 'TEST_USER1', 'Original Table': 'PRODUCT_CODE', 'Original Column': ['PRODUCT_ID'], 'ETC Info': 'ON DELETE SET NULL'}
+2023-05-15 23:39:55,138 - DEBUG - =======================================
+2023-05-15 23:40:14,709 - DEBUG - =======================================
+2023-05-15 23:40:14,710 - DEBUG - 참조할 스키마가 존재하지 않아 SQL을 빌드할 수 없습니다!!!
+2023-05-15 23:40:14,710 - DEBUG - {'FKName': 'FK_PRODUCT_CODE', 'Columns': ['BOUGHT_ITEM'], 'Original Schema': 'TEST_USER1', 'Original Table': 'PRODUCT_CODE', 'Original Column': ['PRODUCT_ID'], 'ETC Info': 'ON DELETE SET NULL'}
+2023-05-15 23:40:14,710 - DEBUG - =======================================
+2023-05-15 23:40:54,474 - DEBUG - =======================================
+2023-05-15 23:40:54,475 - DEBUG - 참조할 스키마가 존재하지 않아 SQL을 빌드할 수 없습니다!!!
+2023-05-15 23:40:54,475 - DEBUG - {'FKName': 'FK_PRODUCT_CODE', 'Columns': ['BOUGHT_ITEM'], 'Original Schema': 'TEST_USER1', 'Original Table': 'PRODUCT_CODE', 'Original Column': ['PRODUCT_ID'], 'ETC Info': 'ON DELETE SET NULL'}
+2023-05-15 23:40:54,475 - DEBUG - =======================================
+2023-05-15 23:41:05,514 - DEBUG - =======================================
+2023-05-15 23:41:05,514 - DEBUG - 참조할 스키마가 존재하지 않아 SQL을 빌드할 수 없습니다!!!
+2023-05-15 23:41:05,514 - DEBUG - {'FKName': 'FK_PRODUCT_CODE', 'Columns': ['BOUGHT_ITEM'], 'Original Schema': 'TEST_USER1', 'Original Table': 'PRODUCT_CODE', 'Original Column': ['PRODUCT_ID'], 'ETC Info': 'ON DELETE SET NULL'}
+2023-05-15 23:41:05,515 - DEBUG - =======================================
+2023-05-15 23:41:51,607 - DEBUG - =======================================
+2023-05-15 23:41:51,607 - DEBUG - 참조할 스키마가 존재하지 않아 SQL을 빌드할 수 없습니다!!!
+2023-05-15 23:41:51,607 - DEBUG - {'FKName': 'FK_PRODUCT_CODE', 'Columns': ['BOUGHT_ITEM'], 'Original Schema': 'TEST_USER1', 'Original Table': 'PRODUCT_CODE', 'Original Column': ['PRODUCT_ID'], 'ETC Info': 'ON DELETE SET NULL'}
+2023-05-15 23:41:51,608 - DEBUG - =======================================
+2023-05-15 23:42:07,156 - DEBUG - =======================================
+2023-05-15 23:42:07,156 - DEBUG - 참조할 스키마가 존재하지 않아 SQL을 빌드할 수 없습니다!!!
+2023-05-15 23:42:07,156 - DEBUG - {'FKName': 'FK_PRODUCT_CODE', 'Columns': ['BOUGHT_ITEM'], 'Original Schema': 'TEST_USER1', 'Original Table': 'PRODUCT_CODE', 'Original Column': ['PRODUCT_ID'], 'ETC Info': 'ON DELETE SET NULL'}
+2023-05-15 23:42:07,156 - DEBUG - =======================================
+2023-05-15 23:44:19,465 - DEBUG - =======================================
+2023-05-15 23:44:19,465 - DEBUG - 참조할 스키마가 존재하지 않아 SQL을 빌드할 수 없습니다!!!
+2023-05-15 23:44:19,465 - DEBUG - {'FKName': 'FK_PRODUCT_CODE', 'Columns': ['BOUGHT_ITEM'], 'Original Schema': 'TEST_USER1', 'Original Table': 'PRODUCT_CODE', 'Original Column': ['PRODUCT_ID'], 'ETC Info': 'ON DELETE SET NULL'}
+2023-05-15 23:44:19,465 - DEBUG - =======================================
+2023-05-15 23:45:01,653 - DEBUG - =======================================
+2023-05-15 23:45:01,654 - DEBUG - 참조할 스키마가 존재하지 않아 SQL을 빌드할 수 없습니다!!!
+2023-05-15 23:45:01,654 - DEBUG - {'FKName': 'FK_PRODUCT_CODE', 'Columns': ['BOUGHT_ITEM'], 'Original Schema': 'TEST_USER1', 'Original Table': 'PRODUCT_CODE', 'Original Column': ['PRODUCT_ID'], 'ETC Info': 'ON DELETE SET NULL'}
+2023-05-15 23:45:01,654 - DEBUG - =======================================
+2023-05-15 23:51:34,318 - DEBUG - =======================================
+2023-05-15 23:51:34,318 - DEBUG - 참조할 스키마가 존재하지 않아 SQL을 빌드할 수 없습니다!!!
+2023-05-15 23:51:34,318 - DEBUG - {'FKName': 'FK_PRODUCT_CODE', 'Columns': ['BOUGHT_ITEM'], 'Original Schema': 'TEST_USER1', 'Original Table': 'PRODUCT_CODE', 'Original Column': ['PRODUCT_ID'], 'ETC Info': 'ON DELETE SET NULL'}
+2023-05-15 23:51:34,319 - DEBUG - =======================================
+2023-05-15 23:52:41,009 - DEBUG - =======================================
+2023-05-15 23:52:41,009 - DEBUG - 참조할 스키마가 존재하지 않아 SQL을 빌드할 수 없습니다!!!
+2023-05-15 23:52:41,009 - DEBUG - {'FKName': 'FK_PRODUCT_CODE', 'Columns': ['BOUGHT_ITEM'], 'Original Schema': 'TEST_USER1', 'Original Table': 'PRODUCT_CODE', 'Original Column': ['PRODUCT_ID'], 'ETC Info': 'ON DELETE SET NULL'}
+2023-05-15 23:52:41,009 - DEBUG - =======================================
